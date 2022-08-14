@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  padding: 100px;
+}
+
+p {
+  padding: -25px 0 75px 0;
+  text-align: center;
+  color: black;
+}
+
+.picFrame {
+  height: 400px;
+  width: 500px;
+  margin: auto;
+  position: center;
+  background-color: white;
+  border-radius: 25px;
+}
+
+img {
+  height: 250px;
+  width: 400px;
+  padding: 40px 0 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.authorInfo {
+  color: black;
+  margin: -45px;
+}
+
+.refreshButton {
+  background-color: grey;
+  padding: -100px;
+  border: 2px solid grey;
+  border-radius: 50px;
+  height: 75px; 
+  width: auto; 
+  margin: 150px 180px;
+  color: burlywood;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: beige;
+  color: white;
+  text-align: center;
+}
