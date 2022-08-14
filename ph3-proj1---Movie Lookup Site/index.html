@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tyler's Movie Lookup Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer type="module" src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center mt-5">Tyler's Movie Lookup Service</h1>
+      <p>
+        Type in the details below to find the movie that you're looking for.
+      </p>
+    </header>
+    <div class="container">
+        <div class="search-element">
+      <form id="movieForm" autocomplete="off"  action="/">
+        <section>
+          <fieldset>
+            <legend>Search for movie by name</legend>
+            <label for="movieName">
+              Movie Title:
+              <input
+                type="text"
+                name="movieName"
+                id="movieName"
+                placeholder="ENTER NAME OF MOVIE"/>
+            </label>
+            <label for="movieYear">
+              Movie Year:
+              <input
+                type="number"
+                name="movieYear"
+                id="movieYear"
+                min="1928"
+                max="2022"
+                placeholder=""
+              />
+            </label>
+            <label for="plotLength" class="label">Plot:
+            <select id="plotLength">
+              <option value="Short" selected>Short</option>
+              <option value="Full">Full</option>
+          </select>
+        </label>
+            <button type="submit">Find Movie</button>
+            </fieldset>
+            </section>
+        </form>
+      <form id="movieID-form" class="form" action="">
+        <section>
+        <fieldset>
+          <legend>Find On IMDB</legend>
+              <label for="IMDB_NUM" class="label">IMDB ID #:
+              <input
+                id="IMDB_NUM"
+                name="IMDB_NUM"
+                type="text"
+                placeholder="ENTER IMDB ID NUMBER"
+              />
+            </label>
+            <label for="plotInfo" class="label" >Plot:</label>
+              <select id="plotInfo">
+                <option value="Short">Short</option>
+                <option value="Full">Full</option>
+            </select>
+            <button type="submit">Find Movie</button>
+              </fieldset>
+              </section>
+              </form>
+              <fieldset>
+                <legend>
+                    Search Results: 
+                </legend>
+                <div id="searchResults" class="search-results">
+                    <section class="result-" id="result-img">
+                    </section>
+                  </div>
+              </fieldset>
+              <footer>
+                <p id="copy">Copyright &copy; 2022 Tyler Seawood</p>
+              </footer>
+              </div>
+    
+    </div> 
+  </body>
+
+</html>

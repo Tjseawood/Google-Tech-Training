@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  background-image: linear-gradient(
+      115deg,
+      rgba(153, 0, 20, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('https://images.unsplash.com/photo-1595769816263-9b910be24d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2379&q=80');
+  background-size: cover;
+  background-position: stretch;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 60%;
+}
+
+.container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container2{
+  
+}
+
+fieldset {
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px;
+}
+
+button {
+  float: right; 
+  position: relative;
+  width: 20%;
+  background: rgba(0, 0, 0, 0.8);
+  color: red;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type='text'],
+input[type='number'] {
+  width: 20%;
+  border-radius: 8px;
+}
+
+select {
+  width: 7%;
+  border-radius: 8px;
+}
+
+h1,
+p,
+label,
+legend {
+  color: white;
+}
+
+h1,
+p,
+label {
+  text-align: center;
+}
+
+label {
+  margin: 2px;
+}
+
+legend {
+  font-weight: 550;
+  font-style: italic;
+}
+
+.search-results {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.movie-info h3 {
+  align-self: center;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.movie-title,
+.movie-info {
+  color: white;
+}
+
+.search-results{
+  width: auto; 
+  height: auto; 
+}
+
+.movie-thumbnail {
+  max-width: 250px;
+  margin: 0 auto;
+  border: 4px solid white;
+  border-radius: 15px;
+  height: auto;
+}
