@@ -1,9 +1,26 @@
+import './style.css'
+
+/*
+1. Create a new local project that uses Vite, Prettier, and ESLint
+2. Register for a free OMDb API API key
+3. Create a form that lets the user search the API using the following options:
+    - API Key (required, string)
+    - Title or IMDB ID (one or the other required, string)
+  - Year (optional, number, greater than 1928, less than or equal to the current year, for whatever the current year is)
+- Short or long plot (required, one or the other)
+
+
+
+
+
+*/
+
 /* eslint-disable linebreak-style */
 /* eslint-disable no-console */
 /* eslint-disable operator-linebreak */
 /* eslint-disable linebreak-style */
 /* eslint-disable no-trailing-spaces */
-import APIKEY from './API-INFO/api-key.env'; 
+// import APIKEY from './API-INFO/api-key.env'; 
 
 // const mainURL = 'https://www.omdapi.com/';
 
