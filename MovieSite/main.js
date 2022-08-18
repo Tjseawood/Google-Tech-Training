@@ -1,17 +1,23 @@
 import './style.css'
 
 /*
-1. Create a new local project that uses Vite, Prettier, and ESLint
-2. Register for a free OMDb API API key
+1. Create a new local project that uses Vite, Prettier, and ESLint (DONE)
+2. Register for a free OMDb API API key (DONE)
 3. Create a form that lets the user search the API using the following options:
     - API Key (required, string)
     - Title or IMDB ID (one or the other required, string)
-  - Year (optional, number, greater than 1928, less than or equal to the current year, for whatever the current year is)
-- Short or long plot (required, one or the other)
-
-
-
-
+    - Year (optional, number, greater than 1928, less than or equal to the current year, for whatever the current year is)
+    - Short or long plot (required, one or the other)
+4. Validate that all fields are correct, displaying error messages for any form input that’s incorrect
+5. If all fields are correct, use the inputs to query the API, and disable all form fields and buttons
+    - Make sure you use HTTPS for your API call!
+6. If there’s a result, display the first movie or show’s title, year, rating, release date, and poster (if it has them) underneath the search form
+    - use document.createElement() and textContent to create HTML elements and set the text of elements where needed, and use append and remove to add and remove elements as needed. 
+    - If there’s no result, display an error message that what they searched for could not be found underneath the search form
+7. Whether there are results or not, re-enable all form fields and buttons
+8. When a user searches again, remove any error messages or existing search results that may have been displayed from their previous search
+10. The HTML, CSS, and JavaScript for the web page should be separate files. Use JavaScript module syntax (ES Modules) for your JavaScript
+11. Submit your code by pushing it to GitHub, ensuring that there are no Prettier or ESLint errors
 
 */
 
