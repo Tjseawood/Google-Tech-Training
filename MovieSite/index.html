@@ -4,21 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>TS Movie Search</title>
     
+    <title>TS Movie Search</title>
+    <!-- font awesome icons cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css-->
+    <link rel="stylesheet" href="styles.css" />
+
+      
   </head>
   <body>
-<!--Create a form -->
-          
-      <form>
-        <label for="movie">What movie would you want to look up?</label>
-        <input type="text" id="movie" name="movie">
-        <button>Save</button>
-      </form>
+    <div class="wrapper">
+      <!-- logo -->
+      <div class="logo">
+        <div class="container">
+          <p>Movie <span>Corn.</span></p>
+        </div>
+      </div>
+      <!--end of logo-->
+      <!--search container-->
+      <div class="search-container">
+        <div class="search-element">
+          <h3>Search Movie:</h3>
+          <input type="text" class="form-control" placeholder="Search Movie Title..." id="movie-search-box">
 
-      <script src="/MovieSite/main.js"></script>
+          <div class="search-list" id="search-list">
+            <!-- list here-->
+            <div class="search-list-item">
+              <div class="search-item-thumbnail">
+                <img src="#" alt="">
+                <h3>Movie Title</h3>
+                <p>Movie Year</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end of search container-->
+
+      <!--result container-->
+      <div class="container">
+        <div class="result-container">
+          <div class="result-grid" id="result-grid"></div>
+          <!-- movie information here-->
+            <div class="movie-poster">
+              <img src="#" alt="movie-poster">
+            </div>
+            <div class="movie-info">
+              <h3 class="movie-title"> Movie Title Again</h3>
+              <ul class="movie-misc-info">
+                <li class="year">Year: </li>
+                <li class="rated">Ratings: </li>
+                <li class="released"> Realeased: </li>
+              </ul>
+              <p class="genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+              <p class="writer"><b>Writer:</b></p>
+            </div>
+        </div>
+      </div>
+
+      <!--end of result container-->
+
+    </div>
      
+    <!-- movie app js-->
+     <script type="module" src="/MovieSite/main.js"></script>
   </body>
 
 </html>
