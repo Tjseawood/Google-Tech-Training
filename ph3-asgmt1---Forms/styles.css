@@ -22,7 +22,7 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: darkslategrey;
+  background: white;
   background-image: linear-gradient(
       115deg,
       rgba(0, 153, 153, 0.8),
